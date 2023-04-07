@@ -27,6 +27,9 @@ const username = 'Enguerrand'
         <!--    version courte    -->
         <!--        <router-link :to="`/user/${username}`">User</router-link>-->
       </li>
+        <li>
+            <RouterLink to="/fournisseurs">Fournisseurs</RouterLink>
+        </li>
     </ul>
   </nav>
 

@@ -4,6 +4,7 @@ import About from '../views/About.vue'
 import User from '../views/User.vue'
 import Pays from '../views/Pays.vue'
 import FichePays from '../views/Fichepays.vue'
+import Fournisseurs from "../views/Fournisseurs.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,10 @@ const router = createRouter({
         {
             path: '/recherche',
             component: FichePays,
+        },
+        {
+            path: '/fournisseurs',
+            component: Fournisseurs,
         },
         // {
         //     path: '/:pathMatch(.*)*', // This is a catch-all route
